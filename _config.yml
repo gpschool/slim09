@@ -27,7 +27,7 @@ conference:
   image: 
   hide_tentative: true
   logo: gpss-logo.svg
-  name: Statistics and Machine Learning Interface Meeting
+  name: Stats and ML Interface Meeting
   short_name: SLIM
   full_name: Statistics and Machine Learning Interface Meeting
   venue: Room 2.15, School of Computer Science
