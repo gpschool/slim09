@@ -1,0 +1,58 @@
+# Site settings
+title: Statistics and Machine Learning Interface Meeting
+author:
+  name: Neil D. Lawrence
+  email: 
+description: > # this means to ignore newlines until "baseurl:"
+  Statistics and Machine Learning Interface Meeting was a meeting focussing on multivariate (or multi-output) Gaussian process models..
+baseurl: "/slim09" # the subpath of your site, e.g. /blog/
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+style: gpss
+
+url: http://gpss.cc # the base hostname & protocol for your site
+twitter_username: datascienceshef
+github_username:  gpschool
+facebook_page: gaussianprocesssummerschool
+
+ghub:
+  edit: true
+  repository: slim09
+
+conference:
+  draft: false # set to True if the programme is draft only.
+  image: 
+  hide_tentative: true
+  logo: gpss-logo.svg
+  name: Statistics and Machine Learning Interface Meeting
+  short_name: SLIM
+  full_name: Statistics and Machine Learning Interface Meeting
+  venue: Room 2.15, School of Computer Science
+  location: Manchester, UK
+  dates:
+  - 2009-07-23
+  - 2009-07-24
+  chairs:
+  - type: Organizers
+    people:
+    - family: Lawrence
+      given: Neil D.
+      institute: The University of Manchester
+      url: http://inverseprobability.com
+    - family: Alvarez
+      given: Mauricio
+      institute: The University of Manchester
+      url: http://www.cs.man.ac.uk/~alvarezm/
+  sponsors:
+  - name: EU FP7 PASCAL2 Network of Excellence
+    url: https://www.k4all.org/project/pascal2/
+  - name: Microsoft Research, Cambridge
+    url: https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/?from=http%3A%2F%2Fresearch.microsoft.com%2Fcambridge%2F
+analytics:
+  google:
+    tracking_id: UA-62991754-1
+# Build settings
+markdown: kramdown
