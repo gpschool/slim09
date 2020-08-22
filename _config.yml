@@ -49,8 +49,8 @@ conference:
   sponsors:
   - name: EU FP7 PASCAL2 Network of Excellence
     url: https://www.k4all.org/project/pascal2/
-  - name: Microsoft Research, Cambridge
-    url: https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/?from=http%3A%2F%2Fresearch.microsoft.com%2Fcambridge%2F
+  - name: School of Computer Science, University of Manchester
+    url: http://www.cs.man.ac.uk/
 analytics:
   google:
     tracking_id: UA-62991754-1
